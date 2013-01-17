@@ -60,8 +60,8 @@ seasonal<-d$seasonal
 
 qi<-qz-(d$seasonal)
 
-lim<-700
-nextvals<-300
+lim<-800
+nextvals<-50
 
 #xregrs=matrix(c(p[0:lim],prom[0:lim]),ncol=2)
 xregrs=matrix(c(p[0:lim],prom[0:lim],lun[0:lim],mar[0:lim],mer[0:lim],gio[0:lim],ven[0:lim],sab[0:lim],dom[0:lim]),ncol=9)
