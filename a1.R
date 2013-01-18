@@ -13,7 +13,7 @@ drv <- JDBC("com.vertica.jdbc.Driver",
             "/home/gianferrarif/Software/squirrel-sql-3.3.0/jdbc/vertica_5.1.1_jdk_5.jar",
             "'")
 conn <- dbConnect(drv, "jdbc:vertica://alivert00:5433/vertica",
-                  user="report",password="report1")
+                  user="xxx",password="xxxx")
 
 
 rs <- dbSendQuery(conn, statement = paste(
